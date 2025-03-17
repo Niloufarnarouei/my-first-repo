@@ -1,0 +1,113 @@
+[
+    {
+        "id": 1,
+        "question": "What does the idiom ^don't judge a book by its cover ^mean?",
+        "options": {
+          "A": "Books should have beautiful covers",
+          "B": " You shouldn't judge people based on appearance.",
+          "C": "Everyone should read more books.",
+          "D": "A book’s title tells everything about it."
+        },
+        "correct_option": " You shouldn't judge people based on appearance."
+    },
+    {
+        "id": 2,
+        "question": " What is the synonym of \"purchase?",
+        "options":{
+          "A": "Sell",
+          "B": "Buy",
+          "C": "Give",
+          "D": "Exchange"
+        },
+        "correct_option": "Buy"
+    },
+    {
+        "id": 3,
+        "question": "What does \"Hijab\" refer to?",
+        "options":{
+          "A": " A type of dress",
+          "B": "A head covering worn by some Muslim women",
+          "C": "A traditional meal",
+          "D": "A hairstyle"
+        },
+        "correct_option": "A head covering worn by some Muslim women"
+    },
+  {
+        "id": 4,
+        "question": "\"Rolling in money\" means:",
+        "options":{
+          "A": "Being extremely poor",
+          "B": "Having a lot of money",
+          "C": "Losing all your money",
+          "D": "Investing wisely"
+        },
+
+        "correct_option": "Having a lot of money"
+    },
+  {
+        "id": 5,
+        "question": "Which of the following is a positive adjective for a job?",
+        "options":{
+          "A": "Boring",
+          "B": "Depressing",
+          "C": "Rewarding",
+          "D": "Exhausting"
+        },
+        "correct_option": "Rewarding"
+    },
+  {
+        "id": 6,
+        "question": "What is the opposite of \"stressful\"?",
+        "options":{
+          "A": "Relaxing",
+          "B": "Demanding",
+          "C": "Challenging",
+          "D": "Motivating"
+        },
+        "correct_option": "Relaxing"
+    },
+  {
+        "id": 7,
+        "question": "If you \"keep mum\", you are:?",
+        "options":{
+          "A": "Telling a secret",
+          "B": "Staying silent",
+          "C": "Speaking loudly",
+          "D": "Asking for help"
+        },
+        "correct_option": "Staying silent"
+    },
+  {
+        "id": 8,
+        "question": "\"To each their own\" means:?",
+        "options": {
+          "A": "Everyone has their own preferences",
+          "B": "You must follow the rules.",
+          "C": "People should be the same",
+          "D": "It is important to share"
+        },
+        "correct_option": "Everyone has their own preferences"
+    },
+  {
+        "id": 9,
+        "question": "What does \"chop chop\" mean?",
+        "options": {
+          "A": "Hurry up!",
+          "B": "Take it easy",
+          "C": "Stop talking",
+          "D": "Cook something"
+        },
+        "correct_option": "Hurry up!"
+    },
+  {
+        "id": 10,
+        "question": "Which one is a synonym of \"extremely tired\"?",
+        "options":  {
+          "A": "I’m beat.",
+          "B": "I’m starving.",
+          "C": "I’m excited",
+          "D": "I’m furious"
+        },
+        "correct_option": "I’m beat."
+    }
+]

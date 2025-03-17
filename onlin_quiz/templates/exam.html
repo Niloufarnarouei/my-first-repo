@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Exam</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 Online Exam</h1>
+        <p class="instructions">Answer the following questions and submit when done.</p>
+
+        <form action="{{ url_for('submit_exam') }}" method="post">
+            {% for question in questions %}
+            <div class="question-box">
+                <p><strong>{{ loop.index }}. {{ question['question'] }}</strong></p>
+                {% for key, value in question['options'].items() %}
+                <label class="option">
+                    <input type="radio" name="q{{ question['id'] }}" value="{{ value }}" required>
+                    {{ value }}
+                </label>
+                {% endfor %}
+            </div>
+            {% endfor %}
+
+            <button type="submit" class="submit-btn">Submit Exam</button>
+        </form>
+    </div>
+</body>
+</html>

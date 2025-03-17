@@ -1,0 +1,67 @@
+/* تنظیمات عمومی */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* کانتینر اصلی */
+.container {
+    width: 60%;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* عنوان اصلی */
+h1 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* توضیحات */
+.instructions {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* باکس سوالات */
+.question-box {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* گزینه‌ها */
+.option {
+    display: block;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* دکمه ارسال */
+.submit-btn {
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}
